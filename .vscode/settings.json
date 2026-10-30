@@ -1,0 +1,6 @@
+{
+  "files.exclude": { "**/node_modules": true, "**/dist": true },
+  "typescript.tsdk": "backend/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "search.exclude": { "**/package-lock.json": true }
+}

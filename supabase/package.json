@@ -1,0 +1,7 @@
+{
+  "name": "archpoint-vms-db-tests",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node tests/rls.test.mjs" },
+  "devDependencies": { "embedded-postgres": "^17.4.0-beta.15", "pg": "^8.12.0" }
+}

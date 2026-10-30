@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Install everything", "type": "shell", "command": "npm run setup", "problemMatcher": [] },
+    { "label": "Run the app", "type": "shell", "command": "npm run dev", "isBackground": true, "problemMatcher": [] },
+    { "label": "Run the tests", "type": "shell", "command": "npm test", "problemMatcher": [] },
+    { "label": "Load sample visitors", "type": "shell", "command": "npm run seed:samples", "problemMatcher": [] },
+    { "label": "Try it without Supabase (demo)", "type": "shell", "command": "npm run demo", "isBackground": true, "problemMatcher": [] }
+  ]
+}
